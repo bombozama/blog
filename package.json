@@ -13,7 +13,9 @@
     "dev": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts dev",
     "build": "cross-env NODE_ENV=production ts-node -T -r tsconfig-paths/register ./src/burdy.ts build",
     "db": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts db",
-    "burdy": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts"
+    "burdy": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts",
+    "db:migrate": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts db migration:run",
+    "db:revert": "cross-env NODE_ENV=development ts-node -T -r tsconfig-paths/register ./src/burdy.ts db migration:revert"
   },
   "bin": {
     "burdy": "./src/burdy.js"
