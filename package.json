@@ -1,7 +1,7 @@
 {
-  "name": "burdy",
+  "name": "wtw-blog",
   "version": "2.1.1",
-  "description": "Open Source Headless Platform",
+  "description": "Wheel the World Blog, forked from burdy.io headless CMS",
   "main": "index.js",
   "scripts": {
     "postcompile": "ncp LICENSE dist/LICENSE && ncp README.md dist/README.md && ts-node -T misc/copy-static-files.ts && ts-node -T misc/correct-types.ts",
@@ -20,20 +20,20 @@
   "bin": {
     "burdy": "./src/burdy.js"
   },
-  "author": {
-    "email": "hello@burdy.io",
-    "name": "Burdy Technologies",
-    "url": "https://burdy.io"
+  "authors": {
+    "email": "developers@gowheeltheworld.com",
+    "name": "Wheel the World Engineering team",
+    "url": "https://gowheeltheworld.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/burdy-io/burdy"
+    "url": "https://github.com/wheeltheworld/wtw-blog"
   },
   "maintainers": [
     {
-      "name": "Burdy Technologies",
-      "email": "hello@burdy.io",
-      "url": "https://burdy.io"
+      "name": "Wheel the World Engineering team",
+      "email": "developers@gowheeltheworld.com",
+      "url": "https://gowheeltheworld.com"
     }
   ],
   "license": "SEE LICENSE IN LICENSE",

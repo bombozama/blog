@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
-import { INavLinkGroup, makeStyles, Nav, NeutralColors } from '@fluentui/react';
+import { CommunicationColors, INavLinkGroup, makeStyles, Nav, NeutralColors } from '@fluentui/react';
 import { useHistory, useLocation } from 'react-router';
 import { useSettings } from '@admin/context/settings';
 import { useStorageState } from '@admin/helpers/hooks';
@@ -143,6 +143,9 @@ const SideNav = () => {
             },
             '.ms-Nav-compositeLink.is-selected &': {
               background: NeutralColors.gray40,
+              '::after' : {
+                borderLeftColor: NeutralColors.black,
+              }
             },
           },
         }}
