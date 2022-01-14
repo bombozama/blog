@@ -38,7 +38,7 @@ const TranslatePanel = () => {
         <Stack tokens={{ childrenGap: 10 }}>
           <ControlledDropdown
             control={control}
-            name={'provider'}
+            name="provider"
             options={[
               {
                 key: 'aws',
@@ -57,31 +57,31 @@ const TranslatePanel = () => {
           />
           <ControlledDropdown
             control={control}
-            name={'sourceLang'}
+            name="sourceLang"
             options={[]}
             label="Source Language"
           />
           <ControlledTextField
             control={control}
-            name={'source'}
+            name="source"
             label="Source"
             rows={10}
             multiline
           />
           <ControlledDropdown
             control={control}
-            name={'targetLanguage'}
+            name="targetLanguage"
             options={[]}
             label="Target Language"
           />
           <ControlledTextField
             control={control}
             rows={10}
-            name={'target'}
+            name="target"
             label="Target"
             multiline
           />
-          <Stack horizontal horizontalAlign={'end'}>
+          <Stack horizontal horizontalAlign="end">
             <PrimaryButton>Translate</PrimaryButton>
           </Stack>
         </Stack>

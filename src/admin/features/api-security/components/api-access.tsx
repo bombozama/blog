@@ -44,7 +44,7 @@ const ApiAccessSettings = () => {
           },
         ]}
       />
-      <Stack horizontal horizontalAlign={'end'}>
+      <Stack horizontal horizontalAlign="end">
         <PrimaryButton
           disabled={_.isEqual(values, defaultValues)}
           onClick={() => {
