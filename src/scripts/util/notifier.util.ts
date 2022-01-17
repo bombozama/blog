@@ -4,7 +4,7 @@ import PathUtil from '@scripts/util/path.util';
 const notify = ({ message, subtitle }) => {
   const icon = PathUtil.admin('assets', 'logo.svg');
   return nodeNotifier.notify({
-    title: 'Burdy',
+    title: 'Wheel the World (Blog)',
     message,
     subtitle,
     icon,

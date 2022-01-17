@@ -19,6 +19,10 @@ body {
   height: 100px;
   max-height: 50%;
   max-width: 100%;
+  &.inside {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
 }
 
 .card {

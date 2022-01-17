@@ -7,9 +7,9 @@ const NotFound: React.FC<any> = () => {
     <div className="d-flex flex-column justify-content-center container text-center min-vh-100">
       <img
         src={logo}
-        alt="Burdy"
+        alt="Wheel the World"
         width={96}
-        height={96}
+        height={14.5}
         className="mb-4 mx-auto"
       />
       <h1 className="mb-5">404 Not Found</h1>

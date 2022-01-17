@@ -88,15 +88,10 @@ const LogIn: React.FC<any> = () => {
       <div className={classNames(styles.wrapper, 'card')}>
         <img
           src={logo}
-          width={36}
-          height={36}
-          alt="Burdy"
-          className={styles.logo}
+          alt="Wheel the World"
+          className="wtw-logo"
         />
         <Stack tokens={{ childrenGap: 8, padding: '0 0 16px' }}>
-          <Text variant="xLargePlus" block>
-            Burdy.js
-          </Text>
           <Text variant="medium" block>
             Log in to continue.
           </Text>
